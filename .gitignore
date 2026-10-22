@@ -1,0 +1,21 @@
+# Build products and local data
+.pio/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+._*
+.idea/
+*.swp
+/output/
+/tmp/
+/logs/
+/data/raw/
+/graphify-out/
+.env
+.env.*
+!.env.example
+/firmware/include/secrets.h
+# Curated binary and log fixtures are intentionally tracked.

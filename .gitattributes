@@ -1,0 +1,31 @@
+# Consistent source line endings across development machines.
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Preserve binary fixtures and any later reviewed media byte-for-byte.
+*.pdf binary
+*.zip binary
+*.dxf binary
+*.stp binary
+*.step binary
+*.stl binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.JPG binary
+*.bin binary
+
+# Keep captured console bytes exactly as recorded.
+tests/fixtures/**/*.log -text whitespace=cr-at-eol

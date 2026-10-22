@@ -1,0 +1,331 @@
+{
+  "provenance": "Real capture, not synthetic; metadata in companion Markdown. Fields decoded per V1.03; direction semantics unresolved.",
+  "raw_records": [
+    {
+      "sequence": 0,
+      "buffer_read_ms": 913,
+      "uart_errors": 0,
+      "hex": "F4F3F2F107000101D602010362F8F7F6F5"
+    },
+    {
+      "sequence": 1,
+      "buffer_read_ms": 2865,
+      "uart_errors": 0,
+      "hex": "F4F3F2F1070001017D02010774F8F7F6F5"
+    },
+    {
+      "sequence": 2,
+      "buffer_read_ms": 3003,
+      "uart_errors": 0,
+      "hex": "F4F3F2F1070001016D020103D6F8F7F6F5"
+    },
+    {
+      "sequence": 3,
+      "buffer_read_ms": 3144,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10700010180020103FFF8F7F6F5"
+    },
+    {
+      "sequence": 4,
+      "buffer_read_ms": 3282,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10700010189020103B3F8F7F6F5"
+    },
+    {
+      "sequence": 5,
+      "buffer_read_ms": 3422,
+      "uart_errors": 0,
+      "hex": "F4F3F2F1070001018902010371F8F7F6F5"
+    },
+    {
+      "sequence": 6,
+      "buffer_read_ms": 6210,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 7,
+      "buffer_read_ms": 7604,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 8,
+      "buffer_read_ms": 8997,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 9,
+      "buffer_read_ms": 10393,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 10,
+      "buffer_read_ms": 11787,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 11,
+      "buffer_read_ms": 13180,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 12,
+      "buffer_read_ms": 14575,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 13,
+      "buffer_read_ms": 15970,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 14,
+      "buffer_read_ms": 17363,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 15,
+      "buffer_read_ms": 18757,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 16,
+      "buffer_read_ms": 20153,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 17,
+      "buffer_read_ms": 21547,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 18,
+      "buffer_read_ms": 22940,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 19,
+      "buffer_read_ms": 24336,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 20,
+      "buffer_read_ms": 25730,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 21,
+      "buffer_read_ms": 27123,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 22,
+      "buffer_read_ms": 28518,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 23,
+      "buffer_read_ms": 29913,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    }
+  ],
+  "decoded_frames": [
+    {
+      "offset": 0,
+      "length": 7,
+      "targets": [
+        {
+          "angle_raw": 214,
+          "angle_deg": 86,
+          "distance_m": 2,
+          "direction_raw": 1,
+          "speed_kmh": 3,
+          "snr_raw": 98
+        }
+      ],
+      "alarm_raw": 1
+    },
+    {
+      "offset": 17,
+      "length": 7,
+      "targets": [
+        {
+          "angle_raw": 125,
+          "angle_deg": -3,
+          "distance_m": 2,
+          "direction_raw": 1,
+          "speed_kmh": 7,
+          "snr_raw": 116
+        }
+      ],
+      "alarm_raw": 1
+    },
+    {
+      "offset": 34,
+      "length": 7,
+      "targets": [
+        {
+          "angle_raw": 109,
+          "angle_deg": -19,
+          "distance_m": 2,
+          "direction_raw": 1,
+          "speed_kmh": 3,
+          "snr_raw": 214
+        }
+      ],
+      "alarm_raw": 1
+    },
+    {
+      "offset": 51,
+      "length": 7,
+      "targets": [
+        {
+          "angle_raw": 128,
+          "angle_deg": 0,
+          "distance_m": 2,
+          "direction_raw": 1,
+          "speed_kmh": 3,
+          "snr_raw": 255
+        }
+      ],
+      "alarm_raw": 1
+    },
+    {
+      "offset": 68,
+      "length": 7,
+      "targets": [
+        {
+          "angle_raw": 137,
+          "angle_deg": 9,
+          "distance_m": 2,
+          "direction_raw": 1,
+          "speed_kmh": 3,
+          "snr_raw": 179
+        }
+      ],
+      "alarm_raw": 1
+    },
+    {
+      "offset": 85,
+      "length": 7,
+      "targets": [
+        {
+          "angle_raw": 137,
+          "angle_deg": 9,
+          "distance_m": 2,
+          "direction_raw": 1,
+          "speed_kmh": 3,
+          "snr_raw": 113
+        }
+      ],
+      "alarm_raw": 1
+    },
+    {
+      "offset": 102,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 112,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 122,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 132,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 142,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 152,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 162,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 172,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 182,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 192,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 202,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 212,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 222,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 232,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 242,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 252,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 262,
+      "length": 0,
+      "targets": []
+    },
+    {
+      "offset": 272,
+      "length": 0,
+      "targets": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "provenance": "Real prompted away-only capture; see companion Markdown.",
+  "raw_records": [
+    {
+      "sequence": 0,
+      "buffer_read_ms": 1238,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 1,
+      "buffer_read_ms": 2631,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 2,
+      "buffer_read_ms": 4026,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 3,
+      "buffer_read_ms": 5421,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 4,
+      "buffer_read_ms": 6815,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 5,
+      "buffer_read_ms": 8208,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 6,
+      "buffer_read_ms": 9604,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 7,
+      "buffer_read_ms": 10998,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 8,
+      "buffer_read_ms": 12391,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 9,
+      "buffer_read_ms": 13786,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 10,
+      "buffer_read_ms": 15181,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 11,
+      "buffer_read_ms": 16574,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 12,
+      "buffer_read_ms": 17969,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    },
+    {
+      "sequence": 13,
+      "buffer_read_ms": 19364,
+      "uart_errors": 0,
+      "hex": "F4F3F2F10000F8F7F6F5"
+    }
+  ],
+  "expected_empty_reports": 14
+}

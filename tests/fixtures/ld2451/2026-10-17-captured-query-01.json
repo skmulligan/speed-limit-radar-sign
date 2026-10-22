@@ -1,0 +1,112 @@
+{
+  "provenance": "Real query capture, not synthetic. Companion log includes raw RX, transmitted requests and parser ACK labels.",
+  "detection_raw": [
+    100,
+    1,
+    1,
+    1
+  ],
+  "detection": {
+    "max_distance_m": 100,
+    "direction_setting_raw": 1,
+    "minimum_speed_kmh": 1,
+    "no_target_delay_s": 1
+  },
+  "sensitivity_raw": [
+    2,
+    0,
+    0,
+    0
+  ],
+  "sensitivity": {
+    "valid_detections": 2,
+    "threshold_setting_raw": 0,
+    "reserved": [
+      0,
+      0
+    ]
+  },
+  "firmware_version": null,
+  "query_complete": false,
+  "config_exit_confirmed_both_attempts": true,
+  "packets": [
+    {
+      "kind": "TX",
+      "command": 255,
+      "payload_hex": "FF000100",
+      "hex": "FDFCFBFA0400FF00010004030201"
+    },
+    {
+      "kind": "ACK",
+      "command": 255,
+      "payload_hex": "FF000100",
+      "hex": "FDFCFBFA0400FF00010004030201"
+    },
+    {
+      "kind": "TX",
+      "command": 254,
+      "payload_hex": "FE00",
+      "hex": "FDFCFBFA0200FE0004030201"
+    },
+    {
+      "kind": "ACK",
+      "command": 510,
+      "payload_hex": "FE010000",
+      "hex": "FDFCFBFA0400FE01000004030201"
+    },
+    {
+      "kind": "TX",
+      "command": 255,
+      "payload_hex": "FF000100",
+      "hex": "FDFCFBFA0400FF00010004030201"
+    },
+    {
+      "kind": "ACK",
+      "command": 511,
+      "payload_hex": "FF01000001000000",
+      "hex": "FDFCFBFA0800FF0100000100000004030201"
+    },
+    {
+      "kind": "TX",
+      "command": 18,
+      "payload_hex": "1200",
+      "hex": "FDFCFBFA0200120004030201"
+    },
+    {
+      "kind": "ACK",
+      "command": 274,
+      "payload_hex": "1201000064010101",
+      "hex": "FDFCFBFA0800120100006401010104030201"
+    },
+    {
+      "kind": "TX",
+      "command": 19,
+      "payload_hex": "1300",
+      "hex": "FDFCFBFA0200130004030201"
+    },
+    {
+      "kind": "ACK",
+      "command": 275,
+      "payload_hex": "1301000002000000",
+      "hex": "FDFCFBFA0800130100000200000004030201"
+    },
+    {
+      "kind": "TX",
+      "command": 160,
+      "payload_hex": "A000",
+      "hex": "FDFCFBFA0200A00004030201"
+    },
+    {
+      "kind": "TX",
+      "command": 254,
+      "payload_hex": "FE00",
+      "hex": "FDFCFBFA0200FE0004030201"
+    },
+    {
+      "kind": "ACK",
+      "command": 510,
+      "payload_hex": "FE010000",
+      "hex": "FDFCFBFA0400FE01000004030201"
+    }
+  ]
+}

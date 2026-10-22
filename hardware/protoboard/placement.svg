@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="720pt" viewBox="0 0 1008 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Street Speed Reminder</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720
+L 1008 720
+L 1008 0
+L 0 0
+z
+" style="fill: #f7f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 125.704918 127.239344
+L 630.295082 127.239344
+L 630.295082 463.632787
+L 125.704918 463.632787
+z
+" clip-path="url(#p195c710278)" style="fill: #e9e5d9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 145.888525 127.239344
+L 297.265574 127.239344
+L 297.265574 396.354098
+L 145.888525 396.354098
+z
+" clip-path="url(#p195c710278)" style="fill: #eff4ef; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 172.8 154.15082
+L 270.354098 154.15082
+L 270.354098 342.531148
+L 172.8 342.531148
+z
+" clip-path="url(#p195c710278)" style="fill: #d6e9e3; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 172.8 113.783607
+L 270.354098 113.783607
+L 270.354098 154.15082
+L 172.8 154.15082
+z
+" clip-path="url(#p195c710278)" style="fill: #f7f4ed; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 172.8 342.531148
+L 270.354098 342.531148
+L 270.354098 372.806557
+L 172.8 372.806557
+z
+" clip-path="url(#p195c710278)" style="fill: #dce7f2; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 221.577049 418.538942
+Q 221.577049 448.496181 221.577049 476.664566
+" clip-path="url(#p195c710278)" style="fill: none; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 223.977049 471.864566
+L 221.577049 476.664566
+L 219.177049 471.864566
+z
+" clip-path="url(#p195c710278)" style="fill: #53666a; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 340.996721 228.157377
+L 475.554098 228.157377
+L 475.554098 396.354098
+L 340.996721 396.354098
+z
+" clip-path="url(#p195c710278)" style="fill: #eff4ef; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 357.816393 241.613115
+L 458.734426 241.613115
+L 458.734426 352.622951
+L 357.816393 352.622951
+z
+" clip-path="url(#p195c710278)" style="fill: #d6e9e3; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 354.452459 150.786885
+L 452.006557 150.786885
+L 452.006557 204.609836
+L 354.452459 204.609836
+z
+" clip-path="url(#p195c710278)" style="fill: #dce7f2; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 512.557377 241.613115
+L 596.655738 241.613115
+L 596.655738 342.531148
+L 512.557377 342.531148
+z
+" clip-path="url(#p195c710278)" style="fill: #dce7f2; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 282.442211 295.436066
+Q 315.766091 295.436066 347.301117 295.436066
+" clip-path="url(#p195c710278)" style="fill: none; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 342.501117 293.036066
+L 347.301117 295.436066
+L 342.501117 297.836066
+z
+" clip-path="url(#p195c710278)" style="fill: #53666a; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 467.457989 295.436066
+Q 485.643709 295.436066 502.040576 295.436066
+" clip-path="url(#p195c710278)" style="fill: none; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 497.240576 293.036066
+L 502.040576 295.436066
+L 497.240576 297.836066
+z
+" clip-path="url(#p195c710278)" style="fill: #53666a; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 340.996721 419.901639
+L 441.914754 419.901639
+L 441.914754 450.177049
+L 340.996721 450.177049
+z
+" clip-path="url(#p195c710278)" style="fill: #f3dfb9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 462.098361 419.901639
+L 529.377049 419.901639
+L 529.377049 450.177049
+L 462.098361 450.177049
+z
+" clip-path="url(#p195c710278)" style="fill: #f3dfb9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 542.832787 419.901639
+L 610.111475 419.901639
+L 610.111475 450.177049
+L 542.832787 450.177049
+z
+" clip-path="url(#p195c710278)" style="fill: #f3dfb9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 627.179045 107.055738
+Q 377.999879 107.055738 128.820713 107.055738
+" style="fill: none; stroke: #53666a; stroke-linecap: round"/>
+    <path d="M 623.179045 105.055738
+L 627.179045 107.055738
+L 623.179045 109.055738
+" style="fill: none; stroke: #53666a; stroke-linecap: round"/>
+    <path d="M 132.820713 109.055738
+L 128.820713 107.055738
+L 132.820713 105.055738
+" style="fill: none; stroke: #53666a; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="378" y="100.327869" transform="rotate(-0 378 100.327869)">150 mm nominal</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(647.985323 338.007941) rotate(-90)">100 mm nominal</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(195.319705 229.138679)">ESP32-S3</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(221.577049 243.963757)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(190.866424 258.788835)">Removable</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(180.580565 273.613913)">2 × 22 sockets</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="221.577049" y="136.450651" transform="rotate(-0 221.577049 136.450651)">ANTENNA</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="221.577049" y="360.15229" transform="rotate(-0 221.577049 360.15229)">USB sockets</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="221.577049" y="406.445902" transform="rotate(-0 221.577049 406.445902)">USB access / plug clearance</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(391.433379 292.740806)">LEVEL</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(385.301738 307.565884)">SHIFTER</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="364.544262" y="258.432787" transform="rotate(-0 364.544262 258.432787)">B</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="441.914754" y="258.432787" transform="rotate(-0 441.914754 258.432787)">A</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="364.544262" y="335.803279" transform="rotate(-0 364.544262 335.803279)">VCB</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="431.822951" y="345.895082" transform="rotate(-0 431.822951 345.895082)">VCA</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="408.27541" y="372.806557" transform="rotate(-0 408.27541 372.806557)">C1 / C2 close to supplies</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="408.27541" y="389.62623" transform="rotate(-0 408.27541 389.62623)">R1 / R2 enable pull-downs</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(381.382008 174.116993)">RAD  2×5</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(367.53818 186.246603)">custom harness</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(544.243901 282.425959)">DISP</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(545.109448 294.555569)">2×8</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(532.767495 306.685178)">to P10 JIN</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="315.767213" y="281.980328" transform="rotate(-0 315.767213 281.980328)">6 signals</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="391.455738" y="437.522782" transform="rotate(-0 391.455738 437.522782)">ESP-LINK</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="495.737705" y="437.522782" transform="rotate(-0 495.737705 437.522782)">PWR-E</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="576.472131" y="437.522782" transform="rotate(-0 576.472131 437.522782)">PWR-P</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="576.472131" y="406.445902" transform="rotate(-0 576.472131 406.445902)">C3 nearby</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="441.914754" y="480.452459" transform="rotate(-0 441.914754 480.452459)">LOWER SERVICE EDGE</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_18">
+    <path d="M 50.4 550.8
+L 957.6 550.8
+L 957.6 658.8
+L 50.4 658.8
+z
+" clip-path="url(#p52072f7c95)" style="fill: #e9e5d9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 68.544 559.8
+L 322.56 559.8
+L 322.56 609.3
+L 68.544 609.3
+z
+" clip-path="url(#p52072f7c95)" style="fill: #f3dfb9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 431.424 559.8
+L 939.456 559.8
+L 939.456 609.3
+L 431.424 609.3
+z
+" clip-path="url(#p52072f7c95)" style="fill: #d6e9e3; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 68.544 618.3
+L 322.56 618.3
+L 322.56 649.8
+L 68.544 649.8
+z
+" clip-path="url(#p52072f7c95)" style="fill: #f3dfb9; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 712.656 618.3
+L 939.456 618.3
+L 939.456 649.8
+L 712.656 649.8
+z
+" clip-path="url(#p52072f7c95)" style="fill: #dce7f2; stroke: #53666a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 821.52 611.299512
+Q 821.52 613.79993 821.52 614.511494
+" clip-path="url(#p52072f7c95)" style="fill: none; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 823.92 609.711494
+L 821.52 614.511494
+L 819.12 609.711494
+z
+" clip-path="url(#p52072f7c95)" style="fill: #53666a; stroke: #53666a; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(134.683172 580.968633)">POWER: cutoff + converter</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(122.996531 593.098242)">Mount to insulated service plate</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(617.071641 580.968633)">LOGIC BOARD: 150 × 100 mm</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #173e45" transform="translate(588.771563 593.098242)">Behind panel depth + connector clearance</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="195.552" y="636.533437" transform="rotate(-0 195.552 636.533437)">BATTERY + ADAPTER / fuses</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #173e45" x="826.056" y="636.533437" transform="rotate(-0 826.056 636.533437)">RADAR / front-left window</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53666a" x="504" y="638.783437" transform="rotate(-0 504 638.783437)">Zones only • enclosure depth TBD</text>
+   </g>
+  </g>
+  <g id="text_27">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="50.4" y="36" transform="rotate(-0 50.4 36)">PROTOBOARD / MODULE PLACEMENT</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53666a" x="50.4" y="60.48" transform="rotate(-0 50.4 60.48)">One 150 × 100 mm isolated-pad board • Component-side view • Zones, not measured footprints</text>
+  </g>
+  <g id="text_29">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #965639" x="50.4" y="694.8" transform="rotate(-0 50.4 694.8)">WIRING / PLACEMENT GUIDE  •  Check each assembly  •  Protection / endurance pending</text>
+  </g>
+  <g id="text_30">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="740.88" y="115.2" transform="rotate(-0 740.88 115.2)">PLACEMENT RULES</text>
+  </g>
+  <g id="text_31">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="740.88" y="151.2" transform="rotate(-0 740.88 151.2)">REMOVABLE MODULES</text>
+  </g>
+  <g id="text_32">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 178.958438)">Dry-fit sockets before soldering.</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 193.195625)">Do not bend pins to fit the grid.</text>
+  </g>
+  <g id="text_33">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="740.88" y="230.4" transform="rotate(-0 740.88 230.4)">SHIFTER ORIENTATION</text>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 258.158437)">B row left; A row right.</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 272.395625)">VCA lower-right; VCB one pitch up.</text>
+  </g>
+  <g id="text_35">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="740.88" y="309.6" transform="rotate(-0 740.88 309.6)">ANTENNA / ACCESS</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 337.358438)">Keep antenna clear of copper,</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 351.595625)">wiring and nearby metal.</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 365.832813)">Leave USB and ribbon plug room.</text>
+  </g>
+  <g id="text_37">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="740.88" y="410.4" transform="rotate(-0 740.88 410.4)">POWER</text>
+  </g>
+  <g id="text_38">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 438.158437)">Two separate fused +5 V feeds.</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 452.395625)">Common ground. Panel current</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #53666a" transform="translate(740.88 466.632812)">stays off this board.</text>
+  </g>
+  <g id="text_39">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #173e45" x="50.4" y="532.8" transform="rotate(-0 50.4 532.8)">ENCLOSURE / REAR VIEW</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p195c710278">
+   <rect x="108.885246" y="93.6" width="538.229508" height="410.4"/>
+  </clipPath>
+  <clipPath id="p52072f7c95">
+   <rect x="50.4" y="550.8" width="907.2" height="108"/>
+  </clipPath>
+ </defs>
+</svg>

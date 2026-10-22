@@ -1,0 +1,32 @@
+WARNING_STARTED source=SYNTHETIC duration_ms=20000 limit_mph=20 strict_above=1 expiry_ms=750
+DEMO_STAGE synthetic=1 kind=0 kmh=0
+DEMO_STAGE synthetic=1 kind=1 kmh=29
+VIEW source=SYNTHETIC view=NUMBER
+WARNING_STATUS armed=1 source=SYNTHETIC fresh=1 mph=18 warning=0 view=NUMBER frames=57 invalid=0 errors=0 backlogs=0
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=SLOW_DOWN
+WARNING_STATUS armed=1 source=SYNTHETIC fresh=1 mph=25 warning=1 view=SLOW_DOWN frames=61 invalid=0 errors=0 backlogs=0
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+VIEW source=SYNTHETIC view=NUMBER
+VIEW source=SYNTHETIC view=BLANK
+DEMO_STAGE synthetic=1 kind=2 kmh=0
+VIEW source=SYNTHETIC view=SLOW_DOWN
+VIEW source=SYNTHETIC view=BLANK
+WARNING_STATUS armed=1 source=SYNTHETIC fresh=0 mph=-1 warning=0 view=BLANK frames=64 invalid=0 errors=0 backlogs=0
+DEMO_STAGE synthetic=1 kind=1 kmh=29
+VIEW source=SYNTHETIC view=NUMBER
+DEMO_STAGE synthetic=1 kind=3 kmh=0
+VIEW source=SYNTHETIC view=BLANK
+WARNING_STATUS armed=1 source=SYNTHETIC fresh=0 mph=-1 warning=0 view=BLANK frames=68 invalid=0 errors=0 backlogs=0
+WARNING_ENDED

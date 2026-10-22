@@ -1,0 +1,21 @@
+LIVE_STARTED duration_ms=20000 units=MPH expiry_ms=750
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+LIVE_STATUS armed=1 fresh=0 mph=-1 frames=100 invalid=0 errors=0 backlogs=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+LIVE_STATUS armed=1 fresh=0 mph=-1 frames=103 invalid=0 errors=0 backlogs=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+SAMPLE targets=1 kmh=3 mph=2 direction=1
+SAMPLE targets=1 kmh=3 mph=2 direction=1
+LIVE_STATUS armed=1 fresh=1 mph=2 frames=109 invalid=0 errors=0 backlogs=0
+NO_TARGET eligible=0 targets=0
+NO_TARGET eligible=0 targets=0
+LIVE_STATUS armed=1 fresh=0 mph=-1 frames=111 invalid=0 errors=0 backlogs=0
+NO_TARGET eligible=0 targets=0
+LIVE_ENDED
