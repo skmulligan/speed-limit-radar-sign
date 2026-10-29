@@ -1,4 +1,4 @@
-# Street Speed Reminder
+# Street Speed Radar
 
 A battery-powered radar speed display built with an **HLK-LD2451**, an
 **ESP32-S3-N16R8**, and one **32 × 16 red P10 LED panel**. It shows selected-target
