@@ -11,7 +11,7 @@ HERE = Path(__file__).resolve().parent
 OUT = HERE.parents[1] / "output" / "protoboard"
 BG, INK, MUTED = "#f7f4ed", "#173e45", "#53666a"
 TEAL, GOLD, BLUE = "#d6e9e3", "#f3dfb9", "#dce7f2"
-plt.rcParams.update({"font.family": "DejaVu Sans", "svg.fonttype": "none", "svg.hashsalt": "street-speed-reminder"})
+plt.rcParams.update({"font.family": "DejaVu Sans", "svg.fonttype": "none", "svg.hashsalt": "street-speed-radar"})
 
 
 def box(ax, x, y, w, h, label="", color=TEAL, fs=10, dashed=False):
@@ -39,9 +39,9 @@ def base(title, subtitle):
 def save(fig, name):
     OUT.mkdir(parents=True, exist_ok=True)
     path = HERE / f"{name}.svg"
-    fig.savefig(path, facecolor=BG, metadata={"Date": None, "Creator": "Street Speed Reminder"})
+    fig.savefig(path, facecolor=BG, metadata={"Date": None, "Creator": "Street Speed Radar"})
     path.write_text("\n".join(line.rstrip() for line in path.read_text().splitlines()) + "\n")
-    fig.savefig(OUT / f"{name}.png", dpi=150, facecolor=BG, metadata={"Software": "Street Speed Reminder"})
+    fig.savefig(OUT / f"{name}.png", dpi=150, facecolor=BG, metadata={"Software": "Street Speed Radar"})
     plt.close(fig)
 
 
