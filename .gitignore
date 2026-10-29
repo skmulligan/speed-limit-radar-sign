@@ -17,5 +17,15 @@ __pycache__/
 .env
 .env.*
 !.env.example
-/firmware/include/secrets.h
+/firmware/*/include/secrets.h
 # Curated binary and log fixtures are intentionally tracked.
+
+# Swift/Xcode generated and user state
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+# Local history/exports are never source fixtures
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

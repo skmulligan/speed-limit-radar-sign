@@ -28,3 +28,10 @@ to their documents. This repository links to reference material rather than redi
 vendor archives, CAD or manuals. Project wiring drawings describe this prototype and
 are not vendor-approved designs. Captured fixtures record device outputs; their companion
 notes document provenance and transformations without distributing complete bench logs.
+
+## iOS companion
+
+The app uses Apple SwiftUI/Core Bluetooth and the system SQLite library through
+the platform SDK; no external Swift packages or SQLite implementation are vendored.
+Their platform distributions retain applicable terms. The original app source
+and included project icon are covered by this repository’s MIT license.

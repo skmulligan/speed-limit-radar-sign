@@ -51,3 +51,10 @@ relief need validation. Placement drawings reserve zones rather than define a
 fabrication template. Keep the radar antenna path clear and recheck behavior after
 mounting. [Validation status](validation.md) distinguishes completed observations
 from outstanding tests.
+
+## Optional clock for current firmware
+
+The standalone wiring remains the base assembly. Current firmware can use a
+DS3231 for battery-backed calendar time; installation is not validated. See
+[RTC selection, proposed connections and primary references](tracking-validation.md#rtc-addition).
+Legacy does not use this module. Phone-set time works without it during one boot.

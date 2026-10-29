@@ -16,3 +16,9 @@ markings before applying electrical or protocol details.
 No manufacturer schematic was established for the exact P10(1R)-4S-V10 panel or
 clone carrier. The connection tables describe the recorded specimen and cable,
 not an inferred generic connector standard. Seller ratings remain identified as such.
+
+Optional current-firmware RTC: [Adafruit DS3231 STEMMA QT 5188](https://www.adafruit.com/product/5188),
+[pinout](https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/pinouts),
+[schematic](https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/downloads),
+and [DS3231 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ds3231.pdf).
+Installation and backup operation remain unvalidated.

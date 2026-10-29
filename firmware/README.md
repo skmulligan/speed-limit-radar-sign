@@ -1,107 +1,34 @@
-# Firmware build and diagnostics
+# Choose your firmware
 
-Use the [root setup instructions](../README.md) to install the pinned Python tools.
-The target is `esp32-s3-devkitc-1` with explicit **16 MB quad flash / 8 MB octal PSRAM**
-overrides for the recorded N16R8 board. The board profile does not identify a clone's
-power circuitry or header order. PlatformIO Espressif32 6.12.0 and Arduino-ESP32
-2.0.17 (package 3.20017.241212) are pinned. COM upload/monitor speed is 115200.
+Both editions target the recorded ESP32-S3-N16R8, LD2451 and one red P10 panel.
+They are independent PlatformIO projects; install only one on a board at a time.
 
-## Normal sign build
+| Edition | Intended use | Normal target | Maintenance |
+| --- | --- | --- | --- |
+| [Legacy — standalone](legacy/README.md) | Speed display and SLOW / DOWN, without logging or app integration | `continuous_radar` | Frozen pre-logging snapshot |
+| [Current — logging + iOS](current/README.md) | Speed display, on-device event journal, BLE live view and iPhone history | `tracking` | All future development |
 
-```sh
-python -m platformio run -d firmware -e continuous_radar
-```
-
-Follow the root guide's complete USB isolation procedure before uploading. During
-battery-only use, continuous firmware displays STARTING for three seconds and then
-runs live until power loss, reset or an explicit stop. It transmits no radar commands.
-Fresh data is required after every start. The synthetic demo never starts automatically.
-
-Compile-time controls are described in [configuration](../docs/configuration.md).
-Changes require rebuilding and uploading; there is no saved settings UI.
-
-## Choose a diagnostic
-
-All environments remain available. Replace ENVIRONMENT with a name below:
+From the repository root, after installing the [pinned tools](../README.md):
 
 ```sh
-python -m platformio run -d firmware -e ENVIRONMENT
+python -m platformio run -d firmware/legacy -e continuous_radar
+python -m platformio run -d firmware/current -e tracking
+python firmware/legacy/tools/run_host_tests.py
+python firmware/current/tools/run_host_tests.py
 ```
 
-Add `-t upload --upload-port YOUR_PORT` only after the appropriate isolation steps.
+Each project defaults to `diagnostic`, a USB-only memory/serial test. Always name
+the intended environment explicitly. The remaining environments are staged
+bring-up tools; `continuous_radar` in current is a comparison target, not a third
+maintained product. [iOS setup](../ios/README.md) applies only to current firmware.
+Neither edition requires a cloud service or internet during operation.
 
-| Environment | Purpose and activation |
-| --- | --- |
-| `diagnostic` (default) | USB-only memory/serial check; disconnect peripherals. `r` repeats memory checks, `?` shows configuration. |
-| `radar_receive` | Passive GPIO17 radar receiver; TX disabled; prints RAW records. Use separately powered radar with common ground, panel/battery off. |
-| `display_io` | Static GPIO/shifter checks; panel must be disconnected. `low`, `high`, `1`–`6`, `?`; high states expire after 60 s. |
-| `panel_bench` | Manual 50 µs panel trials: `test`, `map`, `digits`, `stop`. Polarity probes are advanced bring-up tools. |
-| `battery_panel_bench` | Automatic synthetic 20 after 5 s dark; 10 s display, 50 µs pulses. |
-| `daylight_panel_bench` | Automatic synthetic 20 after 15 s dark; 20 s display, 200 µs pulses. |
-| `radar_query` | Explicit `query` reads settings/version via GPIO18; `status`, `stop`; no persistent settings writes. Panel/battery off. |
-| `live_bench` | Explicit `live`, bounded 20 s live-speed trial, 50 µs pulses; `status`, `stop`. |
-| `warning_bench` | Explicit `live` or synthetic `demo-warning`, bounded 20 s, 50 µs pulses. |
-| `battery_bench` | Automatic 20 s live trial after 5 s dark, 50 µs pulses. |
-| `daylight_radar_bench` | Automatic 20 s live trial after 15 s dark, 200 µs pulses. |
-| `daylight_radar_diagnostic` | 15 s dark, 3 s synthetic TEST, 20 s live, 200 µs pulses. |
-| `continuous_radar` | 3 s STARTING, then indefinite live operation, 200 µs pulses. |
+Legacy carries its own headers, drivers and pinned configuration; it imports no
+current code. See its [snapshot provenance](legacy/PROVENANCE.md). Shared curated
+test inputs at `tests/fixtures/` retain their captured/synthetic labels.
 
-Warning-based environments accept `status`, `stop`, `live` and `demo-warning`.
-Stop an active run before changing mode. In continuous mode, `live` restarts live
-reception without repeating STARTING; `demo-warning` is still a bounded 20-second
-synthetic sequence with TEST identification. A reset restores automatic startup.
-
-Do not treat synthetic numbers as measurements. Keep panel power disconnected
-while establishing a serial session. A powered multi-supply bench setup requires
-separately checked power paths; the battery-only wiring guide does not authorize
-connecting COM USB to the assembled, battery-powered sign.
-
-## Optional host tools
-
-All scripts accept `--help`. `pyserial` is included in the root requirements file;
-no private `PYTHONPATH` or temporary esptool installation is required.
-
-```sh
-python firmware/tools/capture_diagnostic.py --port YOUR_PORT --output logs/diagnostic.log
-python firmware/tools/capture_radar.py --port YOUR_PORT --output logs/radar.log --seconds 20
-python firmware/tools/warning_console.py --port YOUR_PORT --output logs/warning.log
-```
-
-Use each tool only with its matching diagnostic and setup. The diagnostic capture
-sends `r`; the radar capture passively records data. The persistent `panel_console`,
-`live_console`, `warning_console` and `query_console` tools are **POSIX-only** because
-they use `select` on terminal/serial file descriptors. Native Windows users can use
-PlatformIO's serial monitor for manual newline-terminated commands instead; account
-for reset-on-open behavior. Capture tools are not physically verified on every OS.
-Console log files must be new; existing files are not overwritten. Full logs stay local.
-
-## Software regression checks
-
-From the repository root, with a C++17 compiler available:
-
-```sh
-python firmware/tools/run_host_tests.py
-```
-
-The runner compiles ten host configurations and executes 28 scenarios. `CXX` can
-select another compiler. Output goes to ignored `tmp/firmware-host-tests/`. The
-live test needs the four captured `.bin` fixtures under `tests/fixtures/ld2451/`.
-Other host cases use synthetic UART/GPIO/time. Per-suite READMEs document coverage.
-
-To compile all 13 MCU environments without uploading:
-
-```sh
-python -m platformio run -d firmware -e diagnostic -e radar_receive -e display_io -e panel_bench -e battery_panel_bench -e daylight_panel_bench -e radar_query -e live_bench -e warning_bench -e battery_bench -e daylight_radar_bench -e daylight_radar_diagnostic -e continuous_radar
-```
-
-## Code map
-
-- `include/radar_reports.h`: framing and report validation.
-- `include/speed_policy.h`: eligible target selection, conversion and freshness.
-- `include/warning_policy.h`: threshold, hysteresis and animation state.
-- `include/panel_mapping.h`, `speed_digits.h`, `warning_text.h`: panel mapping/raster.
-- `src/warning_bench.cpp`: shared warning, battery and continuous hardware integration.
-- `include/radar_query.h`: bounded read-only query transaction engine.
-
-Keep parsing/policy independent of hardware drivers. Preserve fresh-data checks
-through warning animations, stops, UART errors and timer rollover.
+The edition guides cover configuration, isolated USB upload and diagnostics.
+Switching firmware does not require erasing the chip or formatting storage.
+Preserve any existing history before changing firmware. Legacy does not access
+the tracking journal; do not use an erase/format command as part of switching.
+Software checks do not validate speed accuracy, timing under load or endurance.
